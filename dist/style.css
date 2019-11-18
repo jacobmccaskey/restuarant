@@ -1,0 +1,44 @@
+body {
+    background-image: url("images/french-cafe.jpg");
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: cover;
+}
+
+#content{
+    /* text-align: center;  */
+}
+
+.nav{
+    text-align: center; 
+}
+
+
+button {
+    font-size: 18px;
+    font-weight: bold;
+    display: inline-block;
+    color: wheat;
+    background-color: transparent;
+    border: 2px solid black;
+    border-right: 0px;
+    border-left: 0px;
+    padding: 25px;
+    
+} 
+
+button:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.info{
+    display: inline-block;
+    font-size: 30px;
+    color: blueviolet;
+}
+
+.menu-info{
+    font-size: 30px;
+    color: blueviolet;
+}
+
