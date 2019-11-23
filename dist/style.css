@@ -1,44 +1,57 @@
+
 body {
-    background-image: url("images/french-cafe.jpg");
+    background-image: url("images/italy.jpg");
     background-repeat: no-repeat;
     background-position: left top;
     background-size: cover;
 }
 
+h2{
+text-align: left;
+color: burlywood;
+font-family: cursive;
+}
+
 #content{
-    /* text-align: center;  */
+    width: 50%;
+    justify-content: center;
+    ;
 }
 
 .nav{
+    height: 50px;
     text-align: center; 
 }
 
 
-button {
+.btn {
+    position: relative;
     font-size: 18px;
     font-weight: bold;
     display: inline-block;
-    color: wheat;
+    color:darkgray;
     background-color: transparent;
-    border: 2px solid black;
+    border: 2px solid grey;
     border-right: 0px;
     border-left: 0px;
     padding: 25px;
     
 } 
 
-button:hover{
+.btn:hover{
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+
 }
 
 .info{
-    display: inline-block;
-    font-size: 30px;
-    color: blueviolet;
+    font-family: 'serif',cursive;
+    color: grey;
+    text-align: center;
+    position: relative;
+    width: auto;
+    height: auto;
+    background-image: url("images/eggshell.jpg");
+    font-size: 25px;
 }
-
-.menu-info{
-    font-size: 30px;
-    color: blueviolet;
-}
+/* Fiz alignment of DOM objects */
 
