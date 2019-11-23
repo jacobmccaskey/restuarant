@@ -1,4 +1,4 @@
-const webContent = require('./content.js')
+const webContent = require('./content.js');
 
 
 var contentSpace;
@@ -9,32 +9,32 @@ nav.classList.add('nav');
 const addContent = () => {
   contentSpace = document.createElement('div');
   nav.appendChild(contentSpace);
-}
+};
 
 const removeContent = () => {
   nav.removeChild(contentSpace);
-}
+};
 
 const contactInfo = () => {
   removeContent();
   addContent();
   contentSpace.classList.add('info');
   contentSpace.innerHTML = webContent.contactUs;
-}
+};
 
 const aboutInfo = () => {
   removeContent();
   addContent();
   contentSpace.classList.add('info');
   contentSpace.innerHTML = webContent.aboutUs;
-}
+};
 
 const menuInfo = () => {
   removeContent();
-  addContent()
+  addContent();
   contentSpace.classList.add('info');
   contentSpace.innerHTML = webContent.menu;
-}
+};
 
 
 module.exports = {
@@ -49,4 +49,4 @@ module.exports = {
   // aboutBtn: aboutBtn,
   // menuBtn: menuBtn,
   // nav: nav,
-}
+};
